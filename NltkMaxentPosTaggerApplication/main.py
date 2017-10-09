@@ -28,8 +28,8 @@ class MaxentPosTagger(object):
 if __name__ == '__main__':
     time_start = time.time()
     maxent_tagger = MaxentPosTagger()
-    review_file = open('review.json', 'r')
-    tagged_review_file = open('tagged_review.json', 'w')
+    review_file = open('../data/review.json', 'r')
+    tagged_review_file = open('../data/tagged_review.json', 'w')
     total_lines = 4736897
     print 'Start Tagging'
     cnt = 0
